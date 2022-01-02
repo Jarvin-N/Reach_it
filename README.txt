@@ -4,9 +4,3 @@ owner of said equipment.
 
 
 Most of the webapp was fully functional, only stopped working on it because the idea became boring.
-
-Languages used:
-php
-js
-html
-css
