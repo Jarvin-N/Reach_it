@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+
+
+.button { /*Order button with a minimal animation*/
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after { /*Button movement*/
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span { /*Button movement*/
+    padding-right: 25px;
+}
+
+.button:hover span:after { /*Button movement*/
+    opacity: 1;
+    right: 0;
+}

@@ -1,0 +1,19 @@
+body {
+    background-image:
+
+        /* top, transparent blue */
+            linear-gradient(0deg, rgba(57, 178, 255, 0.7), rgba(57, 178, 255, 0.7)),
+                /* your image */
+                /*url("http://wallpapersdsc.net/wp-content/uploads/2017/04/Tools-Download.jpg");*/
+            url("../img/toolscompsci.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#columns {
+    background-color: white;
+}
+
+i {
+    font-size: 16px;
+}

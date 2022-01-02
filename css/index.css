@@ -1,0 +1,176 @@
+.header {
+    background-color: #006FFF;
+    width: 100%;
+    height: 110px;
+    font-size: 50px;
+    font-family: 'Montserrat thin', sans-serif;
+    text-align: center;
+}
+
+textarea, select, input, button { outline: none; }
+
+#searchform {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#latest {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card {
+    height: 500px;
+}
+
+.bordered {
+    width: 80%;
+    height: 50%;
+}
+
+#searchbar {
+    height: 70px;
+    width: 90%;
+    border: none;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: 'Montserrat thin', sans-serif;
+
+}
+
+#searchbtn {
+    border: none;
+    font-size: 38px;
+    height: 70px;
+}
+
+.bg-search {
+    background-color: #9BDEFF;
+}
+
+/*search bar */
+.searchbar {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0.0);
+    width: 80%;
+    height: 90%;
+    padding: 0px 20px;
+    float: left;
+    font-size: 30px;
+    font-family: 'Montserrat thin', sans-serif;
+}
+
+.searchbig {
+    width: 100%;
+    height: 200px;
+}
+
+.searchpeice {
+    background-color: #9BDEFF;
+    width: 50%;
+    height: 70px;
+    border-radius: 6px;
+    border: 0px solid #ccc;
+    margin: 0 auto;
+}
+
+/* background semi-transparent image with gradient, work in progress*/
+.back {
+    background-image:
+
+        /* top, transparent blue */
+            linear-gradient(0deg, rgba(57, 178, 255, 0.7), rgba(57, 178, 255, 0.7)),
+                /* your image */
+                /*url("http://wallpapersdsc.net/wp-content/uploads/2017/04/Tools-Download.jpg");*/
+            url("../img/toolscompsci.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.image {
+    background-color: #9BDEFF;
+    float: right;
+    vertical-align: middle;
+    border-radius: 6px;
+    display: inline;
+    padding: 10px;
+}
+
+.image2 {}
+
+/*text formating*/
+.seller {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat semi-bold', sans-serif;
+}
+
+.txtLink {
+    color: blue;
+    text-decoration: underline;
+}
+
+.space {
+    height: 175px;
+}
+
+.rest {
+    background-color: rgba(240, 240, 240, 0);
+    height: 200px;
+}
+
+.products {
+    text-align: center;
+    background-color: rgba(249, 249, 249, 0);
+}
+
+.block {
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.block2 {
+    display: inline-block;
+    width: 670px;
+    height: 350px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.spacebt {
+    display: inline-block;
+    width: 60px;
+}
+
+.space2 {
+    height: 60px;
+}
+
+.space3 {
+    height: 60px;
+}
+
+.nameTopic {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    padding: 0px 20px;
+}
+
+.itemBack {
+    background-color: #39B2FF;
+    height: 250px;
+    width: 10px;
+}
+
+.endNotes {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 260px;
+}

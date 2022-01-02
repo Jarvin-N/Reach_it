@@ -1,0 +1,7 @@
+.alert {
+    font-size: 12px;
+}
+
+.form-signin > #error {
+    align-self: center;
+}

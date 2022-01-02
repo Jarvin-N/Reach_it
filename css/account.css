@@ -1,0 +1,17 @@
+body {
+    background: url("../img/tools-bg.png") no-repeat;
+    background-size: cover;
+}
+
+#columns {
+    width: 100%;
+    max-width: 840px;
+    padding: 45px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50px;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
